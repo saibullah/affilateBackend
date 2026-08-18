@@ -34,7 +34,6 @@ router.get("/:id", async (req, res) => {
     });
   }
 });
-
 // Create product
 router.post("/", async (req, res) => {
   try {
@@ -48,7 +47,6 @@ router.post("/", async (req, res) => {
     });
   }
 });
-
 // Update product
 router.put("/:id", async (req, res) => {
   try {
